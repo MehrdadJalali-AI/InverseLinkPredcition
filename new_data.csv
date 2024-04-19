@@ -1,0 +1,5 @@
+refcode,linker SMILES,metal,Largest Cavity Diameter,Pore Limiting Diameter,Largest Free Sphere
+CIGXIA,OC(=O)c1cc(cc(c1)C(=O)O)C(=O)O,Fe,27.74954,8.86222,27.74883
+RUBTAK02,C(=O)(c1ccc(cc1)C(=O)[O])[O],Zr,8.58041,3.87134,8.58041
+SABVUN01,O=C([C@H]1CC[C@@H](CC1)C(=O)[O])[O],Al,5.64118,5.6014,5.64118
+VELVOY,c1(C)ncc[nH]1,Zn,11.39286,3.40894,11.39286
