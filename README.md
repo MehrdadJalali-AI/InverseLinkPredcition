@@ -1,29 +1,29 @@
-# Inverse Link Prediction in Social Graphs
+# Inverse Link Prediction in Metal-Organic Frameworks (MOFs) Graphs
 
 ![ILP.jpg](./ILP.jpg)
 
 ## Overview
-This repository is dedicated to the study and application of an innovative graph sparsification method using Inverse Link Prediction (ILP) through Graph Convolutional Networks (GCN). Developed by Dr. Mehrdad Jalali, this work builds upon our previous framework, MOFGalaxyNet, which models social networks using Metal-Organic Frameworks (MOFs) data.
+This repository is developed under the guidance of Dr. Mehrdad Jalali and focuses on addressing computational challenges in characterizing Metal-Organic Frameworks (MOFs) using an innovative graph sparsification method. This method, termed Inverse Link Prediction (ILP), leverages Graph Convolutional Networks (GCN) for enhanced analysis.
 
 ## Concept
-The ILP method introduced here focuses on refining networks by selectively pruning less critical connections while preserving the essential structural integrity needed for effective computational analysis. The Graph Convolutional Networks (GCN) aspect of ILP specifically targets and evaluates the strength and relevance of each link within the network by leveraging node features and their connectivity patterns. This strategic removal of links minimizes impact on the network's functional characteristics, maintaining vital connections and enhancing the network's manageability and efficiency.
+The Inverse Link Prediction (ILP) technique introduced in this project is tailored to the structural dynamics of MOFs. It refines MOF-based networks by selectively pruning less critical connections, preserving essential structural integrity. This approach significantly enhances the manageability and efficiency of networks, facilitating more effective computational analyses.
 
 ## Theoretical Background
-The core theory behind ILP is based on the premise that not all connections in a network contribute equally to its functional integrity. By identifying and removing less impactful links, we can reduce the complexity of the network without sacrificing its ability to accurately predict essential properties. This is particularly crucial in applications like gas adsorption where properties such as Pore Limiting Diameter (PLD) are vital.
+The foundation of ILP in MOFs is predicated on the differential impact of links within the network. By strategically removing less critical links, we reduce network complexity without undermining the capacity for accurate predictions of crucial properties such as gas adsorption capacities, demonstrated here with metrics like the Pore Limiting Diameter (PLD).
 
 ## Repository Contents
-- **Code/**: All Python scripts and modules used to implement the ILP through GCN.
-- **Data/**: Sample datasets used for training and testing the models.
-- **Docs/**: Additional documentation related to the algorithms and their implementation.
+- **Code/**: Python scripts and modules implementing the ILP through GCN on MOF data.
+- **Data/**: Datasets representing MOF structures and their respective properties.
+- **Docs/**: Documentation detailing the algorithms, their applications, and theoretical underpinnings.
 
 ## Evaluation
-We have evaluated the effectiveness of our sparsification method using various metrics, including network parameter centralities and machine learning predictions of properties like Pore Limiting Diameter (PLD). Case studies have demonstrated high accuracy in predicting key functionalities, confirming the practical applications of our method in material science.
+The effectiveness of our sparsification method is assessed through metrics such as network parameter centralities and machine learning predictions. Our method has proven highly effective in predicting essential MOF properties, enhancing both theoretical understanding and practical applications in material science.
 
 ## How to Use
-To run the scripts in this repository, ensure that you have Python installed along with the necessary libraries listed in `requirements.txt`. Follow the instructions in the installation guide to set up your environment.
+To utilize the scripts, please ensure your environment is prepared with the required Python version and libraries as listed in `requirements.txt`. Detailed setup instructions can be found in the installation guide.
 
 ## Contribution
-Contributions to this project are welcome. Please submit a pull request or open an issue to discuss potential changes or additions.
+We welcome contributions to enhance and expand this project. Please feel free to fork the repository, submit pull requests, or open issues to propose changes or discuss enhancements.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+This project is made available under the MIT License - see the [LICENSE](LICENSE.md) file for details.
