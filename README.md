@@ -2,7 +2,7 @@
 
 ![ILP.jpg](./ILP2.jpg)
 
-[![Watch the video](hILP.jpg)](https://youtu.be/W8EMoVmhp_A)
+[![Watch the video](ILP2.jpg)](https://youtu.be/W8EMoVmhp_A)
 
 
 ## Overview
