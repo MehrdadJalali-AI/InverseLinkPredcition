@@ -1,6 +1,5 @@
 # Inverse Link Prediction in Metal-Organic Frameworks (MOFs) Graphs
 
-![ILP.jpg](./ILP2.jpg)
 
 [![Watch the video](ILP2.jpg)](https://youtu.be/W8EMoVmhp_A)
 
