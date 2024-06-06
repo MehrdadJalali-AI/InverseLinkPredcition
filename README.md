@@ -27,5 +27,6 @@ To utilize the scripts, please ensure your environment is prepared with the requ
 ## Contribution
 We welcome contributions to enhance and expand this project. Please feel free to fork the repository, submit pull requests, or open issues to propose changes or discuss enhancements.
 
-## License
-This project is made available under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+## Citation
+If you use our MOFGalaxyNet, or ILP Strategy, or any part of this repository in your work, please cite the following paper:
+Jalali, Mehrdad, AD Dinga Wonanke, and Christof Wöll. "MOFGalaxyNet: a social network analysis for predicting guest accessibility in metal–organic frameworks utilizing graph convolutional networks." Journal of Cheminformatics 15.1 (2023): 94. [https://doi.org/10.1186/s13321-023-00764-2](https://doi.org/10.1186/s13321-023-00764-2)
