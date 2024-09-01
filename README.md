@@ -11,17 +11,38 @@ The Inverse Link Prediction (ILP) technique introduced in this project is tailor
 ## Theoretical Background
 The foundation of ILP in MOFs is predicated on the differential impact of links within the network. By strategically removing less critical links, we reduce network complexity without undermining the capacity for accurate predictions of crucial properties such as gas adsorption capacities, demonstrated here with metrics like the Pore Limiting Diameter (PLD).
 
-## Repository Contents
-- **Code/**: Python scripts and modules implementing the ILP through GCN on MOF data.
-- **Data/**: Datasets representing MOF structures and their respective properties.
-- **Docs/**: Documentation detailing the algorithms, their applications, and theoretical underpinnings.
 
-### Jupyter Notebooks
-- **InverseLinkPredcition.ipynb**: This is the main notebook that deals with the implementation of inverse link prediction. It includes core algorithms and processes for predicting inverse links in a network, essential for the structural analysis of MOFs.
 
-- **CompareMLMethods_Sparcified_?.ipynb.ipynb**: This notebook focuses on the comparison of Graph Convolutional Networks (GCNs) in the context of sparcification. It includes various implementations and evaluations of GCN models under different sparcification scenarios. ? indicates Original, 0.9, 0.95, and 0.98
+### Jupyter Notebooks and Files
+
+- **CompareMLMethods_Original.ipynb**: This notebook contains the original machine learning methods used in the analysis before any sparsification was applied to the MOF networks.
   
-- **Sparcification_Plots.ipynb**: This notebook is dedicated to generating plots and visualizations related to sparcification. It contains the code needed to produce graphical outputs, illustrating the results of different sparcification techniques applied in the study.
+- **CompareMLMethods_Sparcified_0_9.ipynb**: This notebook compares machine learning methods on MOF networks that have been sparsified by Sparcification Threshold 0.9.
+  
+- **CompareMLMethods_Sparcified_0_95.ipynb**: This notebook compares machine learning methods on MOF networks sparsified by Sparcification Threshold 0.95.
+  
+- **CompareMLMethods_Sparcified_0_98.ipynb**: This notebook compares machine learning methods on MOF networks sparsified by Sparcification Threshold 0.98.
+
+
+- **GCN_Sparcification_PredcitUnseen_Final.ipynb**: This notebook focuses on using Graph Convolutional Networks (GCNs) to predict unseen data after the sparsification process, highlighting the robustness of the ILP method.
+
+
+- **InverseLinkPredcition.ipynb**: This notebook implements the core Inverse Link Prediction algorithm, focusing on the strategic pruning of MOF network links to maintain structural integrity while reducing complexity.
+
+- **Plot_ILP.ipynb**: This notebook generates plots and visualizations related to the Inverse Link Prediction method, aiding in the presentation of results.
+
+
+- **Sparcification_GCN_Heatmap.ipynb**: This notebook generates heatmaps to visualize the performance of GCN models under different sparcification scenarios.
+
+- **Sparcification_Plots.ipynb**: Dedicated to generating plots and visualizations related to sparcification, illustrating the results of different techniques applied in the study.
+
+- **Data/**: Directory containing datasets representing MOF structures and their respective properties.
+
+- **Dataset_Sparcified/**: Directory containing sparsified datasets for use in various analyses.
+
+- **ExtraCodes/**: Directory containing additional scripts and code snippets used throughout the project.
+  
+- **GraphAnalysis/**: Directory containing scripts and outputs related to the analysis of graph structures in MOF networks.
   
 
 ## Evaluation
