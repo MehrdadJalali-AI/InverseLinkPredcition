@@ -5,8 +5,10 @@
 ## Overview
 This repository is developed under the guidance of Dr. Mehrdad Jalali and focuses on addressing computational challenges in characterizing Metal-Organic Frameworks (MOFs) using an innovative graph sparsification method. This method, termed Inverse Link Prediction (ILP), leverages Graph Convolutional Networks (GCN) for enhanced analysis.
 
+
 ## Concept
-The Inverse Link Prediction (ILP) technique introduced in this project is tailored to the structural dynamics of MOFs. It refines MOF-based networks by selectively pruning less critical connections, preserving essential structural integrity. This approach significantly enhances the manageability and efficiency of networks, facilitating more effective computational analyses.
+This study introduces an innovative method for addressing computational challenges in the characterization of Metal-Organic Frameworks (MOFs) by utilizing graph sparsification through Inverse Link Prediction (ILP) with Graph Convolutional Networks (GCNs). Building upon the MOFGalaxyNet framework, this approach strategically prunes non-critical connections within MOF networks while preserving essential structural properties. The ILP method assesses the significance of each link in the network, enabling the targeted removal of less impactful connections. This reduces network complexity by up to 90% without compromising the accuracy of predictions related to crucial properties, such as gas adsorption capacities. The streamlined, sparsified network retains sufficient information for accurate computational analyses, thereby enhancing the efficiency and manageability of MOF characterization processes, particularly in energy-related applications.
+
 
 ## Theoretical Background
 The foundation of ILP in MOFs is predicated on the differential impact of links within the network. By strategically removing less critical links, we reduce network complexity without undermining the capacity for accurate predictions of crucial properties such as gas adsorption capacities, demonstrated here with metrics like the Pore Limiting Diameter (PLD).
