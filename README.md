@@ -20,6 +20,8 @@ The foundation of ILP in MOFs is predicated on the differential impact of links 
 
 ### Jupyter Notebooks and Files
 
+- **requirements.txt**: This file contains all the essential Python packages required to run the notebooks and scripts in this repository.
+ 
 - **CompareMLMethods_Original.ipynb**: This notebook contains the original machine learning methods used in the analysis before any sparsification was applied to the MOF networks.
   
 - **CompareMLMethods_Sparcified_0_9.ipynb**: This notebook compares machine learning methods on MOF networks that have been sparsified by Sparcification Threshold 0.9.
