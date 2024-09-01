@@ -17,11 +17,12 @@ The foundation of ILP in MOFs is predicated on the differential impact of links 
 - **Docs/**: Documentation detailing the algorithms, their applications, and theoretical underpinnings.
 
 ### Jupyter Notebooks
+- **InverseLinkPredcition.ipynb**: This is the main notebook that deals with the implementation of inverse link prediction. It includes core algorithms and processes for predicting inverse links in a network, essential for the structural analysis of MOFs.
+
 - **Sparcification_GCN_Comparison_V5.ipynb**: This notebook focuses on the comparison of Graph Convolutional Networks (GCNs) in the context of sparcification. It includes various implementations and evaluations of GCN models under different sparcification scenarios.
   
 - **Sparcification_Plots.ipynb**: This notebook is dedicated to generating plots and visualizations related to sparcification. It contains the code needed to produce graphical outputs, illustrating the results of different sparcification techniques applied in the study.
   
-- **InverseLinkPredcitionMain2.ipynb**: This is the main notebook that deals with the implementation of inverse link prediction. It includes core algorithms and processes for predicting inverse links in a network, essential for the structural analysis of MOFs.
 
 ## Evaluation
 The effectiveness of our sparsification method is assessed through metrics such as network parameter centralities and machine learning predictions. Our method has proven highly effective in predicting essential MOF properties, enhancing both theoretical understanding and practical applications in material science.
