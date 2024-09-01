@@ -1,8 +1,6 @@
 # Inverse Link Prediction in Metal-Organic Frameworks (MOFs) Graphs
 
-
 [![Watch the video](ILP2.jpg)](https://youtu.be/W8EMoVmhp_A)
-
 
 ## Overview
 This repository is developed under the guidance of Dr. Mehrdad Jalali and focuses on addressing computational challenges in characterizing Metal-Organic Frameworks (MOFs) using an innovative graph sparsification method. This method, termed Inverse Link Prediction (ILP), leverages Graph Convolutional Networks (GCN) for enhanced analysis.
@@ -17,6 +15,13 @@ The foundation of ILP in MOFs is predicated on the differential impact of links 
 - **Code/**: Python scripts and modules implementing the ILP through GCN on MOF data.
 - **Data/**: Datasets representing MOF structures and their respective properties.
 - **Docs/**: Documentation detailing the algorithms, their applications, and theoretical underpinnings.
+
+### Jupyter Notebooks
+- **Sparcification_GCN_Comparison_V5.ipynb**: This notebook focuses on the comparison of Graph Convolutional Networks (GCNs) in the context of sparcification. It includes various implementations and evaluations of GCN models under different sparcification scenarios.
+  
+- **Sparcification_Plots.ipynb**: This notebook is dedicated to generating plots and visualizations related to sparcification. It contains the code needed to produce graphical outputs, illustrating the results of different sparcification techniques applied in the study.
+  
+- **InverseLinkPredcitionMain2.ipynb**: This is the main notebook that deals with the implementation of inverse link prediction. It includes core algorithms and processes for predicting inverse links in a network, essential for the structural analysis of MOFs.
 
 ## Evaluation
 The effectiveness of our sparsification method is assessed through metrics such as network parameter centralities and machine learning predictions. Our method has proven highly effective in predicting essential MOF properties, enhancing both theoretical understanding and practical applications in material science.
