@@ -5,6 +5,16 @@
 ## Overview
 This repository is developed under the guidance of Dr. Mehrdad Jalali and focuses on addressing computational challenges in characterizing Metal-Organic Frameworks (MOFs) using an innovative graph sparsification method. This method, termed Inverse Link Prediction (ILP), leverages Graph Convolutional Networks (GCN) for enhanced analysis.
 
+<p align="center">
+  <img src="Graph_Original_Small.png" alt="Original MOFGalaxyNet" style="width:45%; display:inline-block;" />
+  <img src="Graph_ILP_0.9_Small.png" alt="MOFGalaxyNet after applying Inverse Link Prediction" style="width:45%; display:inline-block;" />
+</p>
+
+<p align="center">
+  <strong>Original MOFGalaxyNet with 14000 MOFs</strong> &emsp; &emsp; &emsp; <strong>MOFGalaxyNet after applying Inverse Link Prediction Method for Sparsification</strong>
+</p>
+
+
 
 ## Concept
 This study introduces an innovative method for addressing computational challenges in the characterization of Metal-Organic Frameworks (MOFs) by utilizing graph sparsification through Inverse Link Prediction (ILP) with Graph Convolutional Networks (GCNs). Building upon the MOFGalaxyNet framework, this approach strategically prunes non-critical connections within MOF networks while preserving essential structural properties. The ILP method assesses the significance of each link in the network, enabling the targeted removal of less impactful connections. This reduces network complexity by up to 90% without compromising the accuracy of predictions related to crucial properties, such as gas adsorption capacities. The streamlined, sparsified network retains sufficient information for accurate computational analyses, thereby enhancing the efficiency and manageability of MOF characterization processes, particularly in energy-related applications.
