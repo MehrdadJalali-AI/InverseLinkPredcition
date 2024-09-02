@@ -1,6 +1,11 @@
 # Inverse Link Prediction in Metal-Organic Frameworks (MOFs) Graphs
 
-[![Watch the video](ILP2.jpg)](https://youtu.be/W8EMoVmhp_A)
+<p align="center">
+  <a href="https://youtu.be/W8EMoVmhp_A">
+    <img src="ILP2.jpg" alt="Watch the video" width="500" height="500">
+  </a>
+</p>
+
 
 ## Overview
 This repository is developed under the guidance of Dr. Mehrdad Jalali and focuses on addressing computational challenges in characterizing Metal-Organic Frameworks (MOFs) using an innovative graph sparsification method. This method, termed Inverse Link Prediction (ILP), leverages Graph Convolutional Networks (GCN) for enhanced analysis.
